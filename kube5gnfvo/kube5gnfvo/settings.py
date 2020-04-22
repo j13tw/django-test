@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'vnfPackage'
+    'vnfPackage.apps.VnfpackageConfig'
 ]
 
 MIDDLEWARE = [
@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'django_database',
         'USER': 'django-user',
         'PASSWORD': 'django-password',
-        'HOST': '127.0.0.1',
+        'HOST': '10.0.0.225',
         'PORT': '3306',
     }
 }
